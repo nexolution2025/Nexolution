@@ -4,25 +4,26 @@ body {
 }
 
 #home {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('1image.png') no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgaudiblur.png') no-repeat center center;
     background-size: cover;
     color: #333;
+
 }
 
 .card {
     backdrop-filter: blur(10px);
-    background: rgba(255,255,255,0.95);
+    background: #d5c4b4;
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
 }
 
 .form-control {
     border-radius: 8px;
-    padding: 12px;
+    padding: 9px;
 }
 
 .btn-primary {
@@ -30,10 +31,15 @@ body {
     border-radius: 8px;
     font-weight: 600;
     transition: all 0.3s ease;
+    text-align: left;
+    background-color: #d49e3e;
+    border-color: #d7a045;
 }
 
 .btn-primary:hover {
     transform: scale(1.02);
+    background-color: #e0ae4d;
+    border-color: #d7a045;
 }
 
 section {
