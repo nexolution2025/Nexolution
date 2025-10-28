@@ -10,6 +10,11 @@ body {
 
 }
 
+#viviendas {
+    background: url('imgfrenteblur.png') no-repeat center center;
+    background-size: cover;
+}
+
 .card {
     backdrop-filter: blur(10px);
     background: #d5c4b4;
@@ -41,6 +46,26 @@ body {
     background-color: #e0ae4d;
     border-color: #d7a045;
 }
+
+.btn-secondary {
+    padding: 12px;
+    max-width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-align: left;
+    background-color: #d49e3e;
+    border-color: #d7a045;
+
+}
+
+.btn-secondary:hover {
+    transform: scale(1.02);
+    background-color: #e0ae4d;
+    border-color: #d7a045;
+}
+
 
 section {
     scroll-margin-top: 56px;
