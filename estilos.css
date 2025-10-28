@@ -38,13 +38,13 @@ body {
     transition: all 0.3s ease;
     text-align: left;
     background-color: #d49e3e;
-    border-color: #d7a045;
+    border-color: #ab8337;
 }
 
 .btn-primary:hover {
     transform: scale(1.02);
     background-color: #e0ae4d;
-    border-color: #d7a045;
+    border-color: #ab8337;
 }
 
 .btn-secondary {
@@ -56,14 +56,14 @@ body {
     transition: all 0.3s ease;
     text-align: left;
     background-color: #d49e3e;
-    border-color: #d7a045;
+    border-color: #ab8337;
 
 }
 
 .btn-secondary:hover {
     transform: scale(1.02);
     background-color: #e0ae4d;
-    border-color: #d7a045;
+    border-color: #ab8337;
 }
 
 
