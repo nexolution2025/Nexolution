@@ -123,4 +123,17 @@ section {
     .card-body {
         padding: 1.5rem !important;
     }
+    .jh{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .sns{
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .ffs img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
 }
