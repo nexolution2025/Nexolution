@@ -123,27 +123,15 @@ section {
     .card-body {
         padding: 1.5rem !important;
     }
-    .jh{
-        display: block;
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 40px;
-    }
-    .sns{
-        width: 100%;
-        margin: 0 0 20px 0;
-        border-radius: 15px 15px 0 0;
 
+    #sn {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgfrenteblur.png') no-repeat center center;
+    background-size: cover;
+    width: 1300px;
+    color: #333;
     }
-    .ffs{
-        width: 100%;
-        margin: 0 0 20px 0;
-    }
-    .ffs img{
-        width: 100%;
-        height: auto;
-        display: block;
-        object-fit: cover;
-        border-radius: 0 0 15px 15px;
+
+    .consh{
+    margin-left: 500px;
     }
 }
