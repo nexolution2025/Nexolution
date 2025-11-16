@@ -129,10 +129,14 @@ section {
         padding: 10px;
         margin-bottom: 40px;
     }
-    .sns
+    .sns{
+        width: 100%;
+        margin: 0 0 20px 0;
+        border-radius: 15px 15px 0 0;
+
+    }
     .ffs{
         width: 100%;
-        border-radius: 20px;
         margin: 0 0 20px 0;
     }
     .ffs img{
@@ -140,5 +144,6 @@ section {
         height: auto;
         display: block;
         object-fit: cover;
+        border-radius: 0 0 15px 15px;
     }
 }
