@@ -10,6 +10,14 @@ body {
 
 }
 
+#sn {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgfrenteblur.png') no-repeat center center;
+    background-size: cover;
+    color: #333;
+
+}
+
+
 #viviendas {
     background: url('imgfrenteblur.png') no-repeat center center;
     background-size: cover;
@@ -21,10 +29,29 @@ body {
     border-radius: 15px;
     transition: transform 0.3s ease;
 }
-
+    
 .card:hover {
     transform: translateY(-3px);
 }
+
+.sns {
+    backdrop-filter: blur(10px);
+    background: #d5c4b4;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    margin: 80px;
+    width: 500px;
+    height: 600px;
+}
+
+.ffs {
+    border-radius: 15px;
+    width: 500px;
+    height: 600px;
+    margin: 10px;
+}
+
+
 
 .form-control {
     border-radius: 8px;
