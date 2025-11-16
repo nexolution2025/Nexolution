@@ -10,7 +10,7 @@ body {
 
 }
 
-#sn {
+#empresa {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgfrenteblur.png') no-repeat center center;
     background-size: cover;
     color: #333;
@@ -126,38 +126,32 @@ section {
         padding: 1px;
         background-color: #d5c4b4;
         margin-left: 45px;
-        width: auto;
-        height: auto;
+        width: 200px;
         border-radius: 15px;
     }
 
     .lead{
-        font-size: 4px;
+        font-size: 11px;
     }
     .sns {
         backdrop-filter: blur(10px);
         background: #d5c4b4;
-        border-radius: 15px 0 0 15px;
+        border-radius: 15px;
         transition: transform 0.3s ease;
         margin-right: 0;
-        width: 80px;
-        height: 90px
-        padding: 20px;
+        width: 500px;
         box-shadow: none !important;
     }
 
     .ffs {
-        border-radius: 0 15px 15px 0;
-        width: 180px;
+        width: 200px;
         height: 180px;
-        margin-left: 0px;
-        margin-top: 10px !important;
-        flex: 1;
+        margin-left: 50px;
         box-shadow: none !important;
     }
 
     .consh{
-        margin-left: 500px;
+        margin-left: 400px;
         display: grid;
     }
 
