@@ -121,10 +121,6 @@ section {
     .card-body {
         padding: 1.5rem !important;
     }
-    .lead{
-        font-size: 1px;
-        text-align: left;
-    }
 
     .jh {    
         
@@ -170,4 +166,5 @@ section {
         font-family: 'Arial', sans-serif; 
         width: auto !important;
     }
+
 }
