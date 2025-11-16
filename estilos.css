@@ -68,8 +68,6 @@ p{
     box-shadow: none !important;
 }
 
-
-
 .form-control {
     border-radius: 8px;
     padding: 9px;
@@ -123,13 +121,43 @@ section {
     .card-body {
         padding: 1.5rem !important;
     }
+    .lead{
+        font-size: 1px;
+        text-align: left;
+    }
 
-    #sn {
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgfrenteblur.png') no-repeat center center;
-        background-size: cover;
-        width: auto !important;
-        height: 200px;
-        color: #333;
+    .jh {    
+        
+        padding: 1px;
+        background-color: #d5c4b4;
+        width: 400;
+        margin-left: 45px;
+        margin-top: 10px !important;
+        border-radius: 15px;
+    }
+
+    .sns {
+        backdrop-filter: blur(10px);
+        background: #d5c4b4;
+        border-radius: 15px 0 0 15px;
+        transition: transform 0.3s ease;
+        width: 20px;
+        height: 20px;
+        flex: 1;
+        margin-top: 10px !important;
+        margin-right: 0;
+        padding: 20px;
+        box-shadow: none !important;
+    }
+
+    .ffs {
+        border-radius: 0 15px 15px 0;
+        width: 180px;
+        height: 180px;
+        margin-left: 0px;
+        margin-top: 10px !important;
+        flex: 1;
+        box-shadow: none !important;
     }
 
     .consh{
