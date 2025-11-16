@@ -125,13 +125,15 @@ section {
     }
 
     #sn {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgfrenteblur.png') no-repeat center center;
-    background-size: cover;
-    width: 1300px;
-    color: #333;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('imgfrenteblur.png') no-repeat center center;
+        background-size: cover;
+        width: 1300px;
+        color: #333;
     }
 
     .consh{
-    margin-left: 500px;
+        margin-left: 500px;
+        display: grid;
     }
+
 }
