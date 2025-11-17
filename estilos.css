@@ -43,7 +43,7 @@ p{
     background: #d5c4b4;
     border-radius: 15px;
     height: 1010px;
-    margin-top: 400px;
+    margin-top: 390px;
     transition: transform 0.3s ease;
 }
     
@@ -178,4 +178,5 @@ section {
         font-family: 'Arial', sans-serif; 
         width: auto !important;
     }
+
 }
