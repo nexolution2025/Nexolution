@@ -51,6 +51,19 @@ p{
     transform: translateY(-3px);
 }
 
+.cardi {
+    backdrop-filter: blur(10px);
+    background: #d5c4b4;
+    border-radius: 15px;
+    height: 550px;
+    transition: transform 0.3s ease;
+}
+    
+.cardi:hover {
+    transform: translateY(-3px);
+}
+
+
 .sns {
     backdrop-filter: blur(10px);
     background: #d5c4b4;
